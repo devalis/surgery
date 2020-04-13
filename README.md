@@ -1,2 +1,2 @@
 # surgery
-Papandrikos-Kritikos Site
+Papandrikos Site
