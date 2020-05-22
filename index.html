@@ -1,23 +1,10 @@
-<!--
-=========================================================
-* Argon Design System - v1.2.0
-=========================================================
-
-* Product Page: https://www.creative-tim.com/product/argon-design-system
-* Copyright 2020 Creative Tim (http://www.creative-tim.com)
-
-Coded by www.creative-tim.com
-
-=========================================================
-
-* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software. -->
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <link rel="apple-touch-icon" sizes="76x76" href="./assets/img/apple-icon.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="./assets/img/papandrikos-logo.png">
   <link rel="icon" type="image/png" href="./assets/img/papandrikos-logo.png">
   <title>
     Surgeon Papandrikos Ioannis
@@ -32,7 +19,6 @@ Coded by www.creative-tim.com
   <link href="./assets/css/font-awesome.css" rel="stylesheet" />
   <link href="./assets/css/nucleo-svg.css" rel="stylesheet" />
   <link href="./assets/css/argon-design-system.css?v=1.2.0" rel="stylesheet" />
-
 </head>
 
 <body class="landing-page">
@@ -50,7 +36,7 @@ Coded by www.creative-tim.com
           <div class="row">
             <div class="col-6 collapse-brand">
               <a href="./././index.html">
-                <img src="./assets/img/brand/blue.png">
+                <img src="./assets/img/papandrikos-logo.png">
               </a>
             </div>
             <div class="col-6 collapse-close">
@@ -70,9 +56,9 @@ Coded by www.creative-tim.com
             <i class="fas fa-mobile-alt"></i>
             <span class="nav-link-inner--text">694 6036077</span>
           </li>
-          <li class="nav-item d-none d-lg-block ml-lg-4">
-            <a href="./profile.html" target="_blank" class="btn btn-neutral btn-icon">
-              <span class="nav-link-inner--text">Βιογραφικο</span>
+          <li class="nav-item nav-link nav-link-icon">
+            <a href="./profile.html" class="nav-link" role="button" target="_blank">
+              <span class="nav-link-inner--text">Βιογραφικό</span>
             </a>
           </li>
           <li class="nav-item nav-link nav-link-icon">
@@ -83,7 +69,7 @@ Coded by www.creative-tim.com
         </ul>
         <ul class="navbar-nav navbar-nav-hover align-items-lg-center">
           <li class="nav-item dropdown">
-            <a href="#diseases" class="nav-link" data-toggle="dropdown" role="button">
+            <a href="#" class="nav-link" data-toggle="dropdown" role="button">
               <i class="ni ni-collection d-lg-none"></i>
               <span class="nav-link-inner--text">Παθήσεις</span>
             </a>
@@ -96,8 +82,8 @@ Coded by www.creative-tim.com
               <a href="#cancerpara" class="dropdown-item">Καρκίνος παραθυρεοειδούς αδένα</a>
           </li>
           <li class="nav-item dropdown">
-            <a href="#surgeries" class="nav-link" data-toggle="dropdown" href="#" role="button">
-              <i class="ni ni-collection d-lg-none"></i>
+            <a href="#" class="nav-link" data-toggle="dropdown" role="button">
+              <i class="ni ni-vector d-lg-none"></i>
               <span class="nav-link-inner--text">Χειρουργικές Επεμβάσεις</span>
             </a>
             <div class="dropdown-menu">
@@ -140,15 +126,14 @@ Coded by www.creative-tim.com
       </div>
     </div>
     <div class="section features-6">
-      <div class="container">
+      <div class="container" id="diseases">
         <div class="row align-items-center">
           <div class="col-lg-6">
             <h3 class="display-3  text-center mb-5">Παθήσεις θυρεοειδούς</h3>
             <div class="info info-horizontal info-hover-primary" id="ozos">
               <div class="description pl-4">
                 <h5 class="title">Θυρεοειδικός όζος</h5>
-                <p>Μία καλά διαφοροποιημένη εστία   του παρεγχύματος του θυρεοειδούς αδένα. Σε ποσοστό έως 95% είναι καλοήθεις και συνήθως ανευρίσκονται σε τυχαίο έλεγχο της τραχηλικής χώρας.</p>
-                <!-- <a href="#" class="text-info">Learn more</a> -->
+                <p>Μία καλά διαφοροποιημένη εστία του παρεγχύματος του θυρεοειδούς αδένα. Σε ποσοστό έως 95% είναι καλοήθεις και συνήθως ανευρίσκονται σε τυχαίο έλεγχο της τραχηλικής χώρας.</p>
               </div>
             </div>
             <div class="info info-horizontal info-hover-primary mt-5" id="vrochokili">
@@ -170,8 +155,8 @@ Coded by www.creative-tim.com
               </div>
             </div>
           </div>
-          <div class="col-lg-6 col-10 mx-md-auto">
-            <img class="ml-lg-5" src="./assets/img/thiroeidis.jpg" width="100%">
+          <div class="col-lg-6 col-10 mx-md-auto text-center">
+            <img class="ml-lg-5" src="./assets/img/thyroid-icon.png" >
           </div>
         </div>
       </div>
@@ -199,7 +184,7 @@ Coded by www.creative-tim.com
       </div>
     </div>
     <div class="section features-1">
-      <div class="container">
+      <div class="container" id="surgeries">
         <div class="row">
           <div class="col-md-8 mx-auto text-center">
             <h3 class="display-3 mb-5">Χειρουργικές Επεμβάσεις</h3>
@@ -229,10 +214,10 @@ Coded by www.creative-tim.com
           </div>
           <div class="col-md-4" id="reoperation">
             <div class="info">
-              <div class="icon icon-lg icon-shape icon-shape-warning shadow rounded-circle">
+              <div class="icon icon-lg icon-shape icon-shape-primary shadow rounded-circle">
                 <i class="ni ni-atom"></i>
               </div>
-              <h6 class="info-title text-uppercase text-warning">Επανεπεμβαση</h6>
+              <h6 class="info-title text-uppercase text-primary">Επανεπεμβαση</h6>
               <p class="description opacity-8">Σε περιπτώσεις υπολειμματικής νόσου, είτε σε εναπομείναντα θυρεοειδικό ιστό είτε σε εναπομείναντα διηθημένο τραχηλικό λεμφαδένα, μετά την πρώτη χειρουργική επέμβαση.</p>
             </div>
           </div>
@@ -240,28 +225,28 @@ Coded by www.creative-tim.com
         <div class="row mt-5">
           <div class="col-md-4" id="trachilikos">
             <div class="info">
-              <div class="icon icon-lg icon-shape icon-shape-warning shadow rounded-circle">
+              <div class="icon icon-lg icon-shape icon-shape-primary shadow rounded-circle">
                 <i class="ni ni-atom"></i>
               </div>
-              <h6 class="info-title text-uppercase text-warning">Tραχηλικoς λεμφαδενικoς καθαρισμoς</h6>
+              <h6 class="info-title text-uppercase text-primary">Tραχηλικoς λεμφαδενικoς καθαρισμoς</h6>
               <p class="description opacity-8">Κεντρικός και/ή Πλάγιος  (σύστοιχος ή αμφοτερόπλευρος) λεμφαδενικός καθαρισμός τραχήλου, αναλόγως την ανατομική θέση των λεμφαδενικών ομάδων που εξαιρούνται.</p>
             </div>
           </div>
           <div class="col-md-4" id="paraoperation">
             <div class="info">
-              <div class="icon icon-lg icon-shape icon-shape-success shadow rounded-circle">
+              <div class="icon icon-lg icon-shape icon-shape-primary shadow rounded-circle">
                 <i class="ni ni-settings-gear-65"></i>
               </div>
-              <h6 class="info-title text-uppercase text-success">Εστιασμενη παραθυρεοειδεκτομη</h6>
+              <h6 class="info-title text-uppercase text-primary">Εστιασμενη παραθυρεοειδεκτομη</h6>
               <p class="description opacity-8">Η στοχευμένη χειρουργική εξαίρεση του παθολογικού παραθυρεοειδούς αδένα, ο οποίος έχει εντοπιστεί κατά τον προεγχειρητικό απεικονιστικό έλεγχο.</p>
             </div>
           </div>
           <div class="col-md-4" id="amfotrachilikos">
             <div class="info">
-              <div class="icon icon-lg icon-shape icon-shape-success shadow rounded-circle">
+              <div class="icon icon-lg icon-shape icon-shape-primary shadow rounded-circle">
                 <i class="ni ni-settings-gear-65"></i>
               </div>
-              <h6 class="info-title text-uppercase text-success">Αμφοτεροπλευρη διερευνυνση τραχηλου</h6>
+              <h6 class="info-title text-uppercase text-primary">Αμφοτεροπλευρη διερευνυνση τραχηλου</h6>
               <p class="description opacity-8">Οι χειρουργικοί χειρισμοί  και η έκθεση όλων των παραθυρεοειδών αδένων που βρίσκονται στη περιοχή του  τραχήλου, με σκοπό την εξαίρεση μόνο των παθολογικών εξ αυτών.</p>
             </div>
           </div>
@@ -297,14 +282,6 @@ Coded by www.creative-tim.com
                   <dt class="col-sm-5"><i class="fas fa-pencil-alt"></i> Email:</dt>
                   <dd class="col-sm-7"><small>ioannispapandrikos@yahoo.com</small></dd>
                 </dl>
-                <dl class="row">
-                  <dt class="col-sm-5"></dt>
-                  <dt class="col-sm-5 text-center">
-                    <button target="_blank" href="https://www.facebook.com/ioannis.papandrikos" rel="nofollow" class="btn-icon-only rounded-circle btn btn-facebook" data-toggle="tooltip" data-original-title="Like us">
-                    <span class="btn-inner--icon"><i class="fab fa-facebook"></i></span>
-                    </button>
-                  </dt>
-            </button>
               </div>
             </div>
           </div> 
@@ -316,32 +293,27 @@ Coded by www.creative-tim.com
                 <a href="https://www.embedgooglemap.org"></a></div><style>.mapouter{position:relative;text-align:right;height:500;width:300;}.gmap_canvas {overflow:hidden;background:none!important;height:500;width:300;}</style>
               </div>
           </div>
-          <div class="row row-grid mt-5">
-            <button target="_blank" href="https://www.facebook.com/ioannis.papandrikos" rel="nofollow" class="btn-icon-only rounded-circle btn btn-facebook" data-toggle="tooltip" data-original-title="Like us">
-              <span class="btn-inner--icon"><i class="fab fa-facebook"></i></span>
-            </button>
-          </div>
         </div>
         <hr>
-        <div class="row align-items-center justify-content-md-between">
-          <div class="col-md-6">
+        <div class="row align-items-center justify-content-md-end">
+          <!-- <div class="col-md-6">
             <div class="copyright">
               &copy; 2020 
             </div>
-          </div>
-          <div class="col-md-6">
+          </div> -->
+          <div class="col-md-12">
             <ul class="nav nav-footer justify-content-end">
               <li class="nav-item">
-                <a href="" class="nav-link" target="_blank">Βιογραφικό</a>
+                <a href="./profile.html" class="nav-link" target="_blank">Βιογραφικό</a>
               </li>
               <li class="nav-item">
-                <a href="" class="nav-link" target="_blank">Επικοινωνία</a>
+                <a href="#contact" class="nav-link">Επικοινωνία</a>
               </li>
               <li class="nav-item">
-                <a href="" class="nav-link" target="_blank">Παθήσεις</a>
+                <a href="#diseases" class="nav-link">Παθήσεις</a>
               </li>
               <li class="nav-item">
-                <a href="" class="nav-link" target="_blank">Χειρουργικές επεμβάσεις</a>
+                <a href="#surgeries" class="nav-link">Χειρουργικές επεμβάσεις</a>
               </li>
             </ul>
           </div>
